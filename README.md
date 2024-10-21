@@ -67,7 +67,7 @@ Localization added by [François Hernandez](https://github.com/francoishernandez
 
 # **Get involved**
 
-- Join the [Design Engineers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
+- Join the [Frontend Developers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
 - Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
 
 # **License**
