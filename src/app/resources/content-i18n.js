@@ -81,10 +81,12 @@ const createI18nContent = (t) => {
       title: t("about.work.title"),
       experiences: [
         {
-          company: "FLY",
-          timeframe: t("about.work.experiences.FLY.timeframe"),
-          role: t("about.work.experiences.FLY.role"),
-          achievements: t("about.work.experiences.FLY.achievements").split(";"),
+          company: "LMES",
+          timeframe: t("about.work.experiences.LMES.timeframe"),
+          role: t("about.work.experiences.LMES.role"),
+          achievements: t("about.work.experiences.LMES.achievements").split(
+            ";"
+          ),
           images: [
             // optional: leave the array empty if you don't want to display images
             {

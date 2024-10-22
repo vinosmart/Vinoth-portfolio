@@ -12,7 +12,7 @@
     "title": "{name}'s Portfolio",
     "description": "Portfolio website showcasing my work as a {role}.",
     "headline": "Frontend Developer",
-    "subline": "I'm Vinothkumar, a Frontend Developer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+    "subline": "I'm Vinothkumar, a Frontend Developer at LMES, where I craft intuitive user experiences. After hours, I build my own projects."
   },
   "about": {
     "label": "About",
@@ -25,10 +25,10 @@
     "work": {
       "title": "Work Experience",
       "experiences": {
-        "FLY": {
-          "timeframe": "2022 - Present",
-          "role": "Senior Frontend Developer",
-          "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times; Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+        "LMES": {
+          "timeframe": "2022 - 2023",
+          "role": " Frontend Developer",
+          "achievements": " Improved SEO, leading to faster page load times; Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
         },
         "Creativ3": {
           "timeframe": "2018 - 2022",
