@@ -24,18 +24,18 @@ src/app/resources/config
 
 **5. Edit content**
 ```
-src/app/resources/content (or content-i18n for localization)
+src/app/resources/content
 ```
 
 **6. Create blog posts / projects**
 ```
-Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/projects
+Add a new .mdx file to src/app/blog/posts or src/app/work/projects
 ```
 
 # **Features**
 
 ## **Once UI**
-- All tokens, components & features of [Once UI](https://once-ui.com)
+- All tokens, components & features of [Once UI](https://once-ui.com) (v0.3.1)
 
 ## **SEO**
 - Automatic open-graph and X image generation with next/og
@@ -46,28 +46,25 @@ Add a new .mdx file to src/app/[locale]/blog/posts or src/app/[locale]/work/proj
 - Timeless design without heavy animations and motion
 - Endless customization options through [data attributes](https://once-ui.com/docs/theming)
 
+TIP:
+You try pre-built designs by changing the imports for the config and content in src/app/resources/index.ts
+
 ## **Content**
 - Render sections conditionally based on the content file
 - Enable or disable pages for blog, work, gallery and about / CV
 - Generate and display social links automatically
 - Set up password protection for URLs
 
-## **Localization (NEW)**
-- Magic Portfolio now supports localization with the next-intl library
-- See more info in resources/config.js
-
 # **Authors**
 
-Connect with us on Threads or LinkedIn.
+Connect with us on X or LinkedIn.
 
-Lorant Toth: [Threads](https://www.threads.net/@lorant.one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
-Zsofia Komaromi: [Threads](https://www.threads.net/@zsofia_kom), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
-
-Localization added by [François Hernandez](https://github.com/francoishernandez)
+Lorant Toth: [X](https://x.com/lorant_one), [LinkedIn](https://www.linkedin.com/in/tothlorant/)  
+Zsofia Komaromi: [X](https://x.com/zsofiakomaromi), [LinkedIn](https://www.linkedin.com/in/zsofiakomaromi/)
 
 # **Get involved**
 
-- Join the [Frontend Developers Club on Discord](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with us!
+- Join the [Once UI Discord server](https://discord.com/invite/5EyAQ4eNdS) and share your portfolio with designers and developers!
 - Report a [bug](https://github.com/once-ui-system/magic-portfolio/issues/new?labels=bug&template=bug_report.md).
 
 # **License**

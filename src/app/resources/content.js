@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Vinothkumar",
-  lastName: "",
+  firstName: "Vinoth",
+  lastName: "Kumar",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Frontend Developer",
+  role: "Front-End Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "India/Tamilnadu", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -24,27 +24,15 @@ const newsletter = {
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/vinosmart",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
-    name: "Email",
-    icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "https://www.linkedin.com/in/vinoth-kumar-489465166/",
   },
 ];
 
@@ -52,11 +40,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Frontend Developer</>,
+  headline: <>Front-End Developer</>,
   subline: (
     <>
-      I'm Vinothumar, a Frontend Developer at <InlineCode>Buff</InlineCode>,
-      where I craft intuitive
+      I'm Vinoth, a Front-End Developer where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -82,65 +69,55 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Vinothkumar is a Jakarta-based Frontend Developer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        Vinoth is a Front-End Developer with a passion for transforming complex
+        challenges into simple, elegant software solutions. His work spans
+        digital interfaces, interactive experiences, and the convergence of
+        design and technology.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "LMES",
-        timeframe: "2022 - Present",
-        role: "Senior Frontend Developer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the LMES platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        company: "Buff",
+        timeframe: "Oct 2024 - present",
+        role: "Front-End Developer ",
+        achievements: [],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
-          </>,
-        ],
+        company: "Primesite Innovation",
+        timeframe: "Apr 2024 - Oct 2024",
+        role: "Front-End Developer (Freelancing)",
+        achievements: [],
+        images: [],
+      },
+
+      {
+        company: "ZoomLocal",
+        timeframe: "Jan 2024 - Apr 2024",
+        role: "Front-End Developer",
+        achievements: [],
+        images: [],
+      },
+      {
+        company: "LMES",
+        timeframe: "Aug 2022 - Dec 2023",
+        role: "Front-End Developer",
+
+        achievements: [],
         images: [],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: false,
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "",
         description: <>Studied software engineering.</>,
       },
       {
@@ -150,14 +127,102 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
+        title: "Website Development",
+        description: (
+          <>
+            Specializing in building high-performance mobile and desktop
+            applications, ensuring seamless user experiences and rapid delivery.
+          </>
+        ),
+        images: [
+          {
+            src: "/images/chitti.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/car.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Nuxt js",
+        description: (
+          <>
+            Expert in developing dynamic and responsive web applications using
+            Nuxt.js, ensuring fast, SEO-friendly, and scalable solutions.
+          </>
+        ),
+
+        images: [
+          {
+            src: "/images/fly.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/maker.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "SEO",
+        description: (
+          <>
+            Expert in implementing SEO strategies to boost organic traffic,
+            improve search engine rankings, and optimize websites for maximum
+            visibility.
+          </>
+        ),
+
+        images: [
+          {
+            src: "/images/8.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Tailwind CSS",
+        description: <>Make pretty and effective style in Web Apps.</>,
+        images: [
+          {
+            src: "/images/karyon.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/digital.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Skilled in designing and prototyping responsive web and mobile
+            interfaces using Figma, focusing on user-centered design.
+          </>
         ),
+
         images: [
           {
             src: "/images/projects/project-01/cover-02.jpg",
@@ -174,13 +239,17 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
+        title: "Wordpress",
+        description: <>Building web with more responsive and style.</>,
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/3.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/buff.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -195,23 +264,18 @@ const blog = {
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work = {
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
   images: [
     {
       src: "/images/gallery/img-01.jpg",
@@ -223,66 +287,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // Other images omitted for brevity
   ],
 };
 
