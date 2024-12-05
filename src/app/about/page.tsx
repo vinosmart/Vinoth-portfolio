@@ -165,11 +165,14 @@ export default function About() {
                 </Flex>
                 <Flex paddingX="8">Schedule a call</Flex>
                 <IconButton
-                  href={about.calendar.link}
-                  data-border="rounded"
-                  variant="tertiary"
-                  icon="chevronRight"
-                />
+  href="https://docs.google.com/forms/d/e/1FAIpQLSfm-h6wnM7Ud910Q8JpC7XY6vcKxOF_UIrmcS3WMz0yvyyPCg/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+  data-border="rounded"
+  variant="tertiary"
+  icon="chevronRight"
+/>
+
               </Flex>
             )}
             <Heading className={styles.textAlign} variant="display-strong-xl">

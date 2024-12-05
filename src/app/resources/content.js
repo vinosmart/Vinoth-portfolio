@@ -225,13 +225,13 @@ const about = {
 
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/figma1.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/figma2.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
