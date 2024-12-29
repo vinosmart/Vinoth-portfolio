@@ -14,6 +14,8 @@ const ProjectSection = () => {
     { title: 'Bootcamp ', link: 'https://buffchennai.com/campaigns/bootcamps/uiux' },
     { title: 'Wordpress ', link: 'https://10web-site.ai/187/worthy-mudfish/' },
     { title: 'Kodestory ', link: 'https://www.kodestory.com/' },
+    { title: 'Viss-School ', link: 'https://viss-school.vercel.app/' },
+
 
 
 
