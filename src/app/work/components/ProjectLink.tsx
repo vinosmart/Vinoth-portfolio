@@ -21,7 +21,7 @@ const ProjectSection = () => {
     { title: "Wordpress ", link: "https://10web-site.ai/187/worthy-mudfish/" },
     { title: "Kodestory ", link: "https://www.kodestory.com/" },
     { title: "Viss-School ", link: "https://viss-school.vercel.app/" },
-    { title: "Yellow-dubai", link: "https://yellow-dubai.vercel.app/" },
+    { title: "Yellow-dubai", link: "https://yellowdubai.com/" },
   ];
 
   return (
