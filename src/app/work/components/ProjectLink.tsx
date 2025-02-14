@@ -8,7 +8,7 @@ const ProjectSection = () => {
     { title: "Engineering", link: "https://chitti.app/engineering/" },
     { title: "Landing Pages", link: "https://chitti.app/workshops" },
     { title: "Digital It Hub", link: "https://www.digitalithub.in/" },
-    { title: "Karyon Bio", link: "https://karyon-bio-omega.vercel.app/" },
+    { title: "Karyon Bio", link: "https://karyon-bio.vercel.app/" },
     { title: "Cab Service", link: "https://carshowroom-beige.vercel.app/" },
     {
       title: "Webinar ",
@@ -18,7 +18,7 @@ const ProjectSection = () => {
       title: "Bootcamp ",
       link: "https://buffchennai.com/campaigns/bootcamps/uiux",
     },
-    { title: "Wordpress ", link: "https://10web-site.ai/187/worthy-mudfish/" },
+    { title: "Alignpaek ", link: "https://alignpeak.vercel.app/" },
     { title: "Kodestory ", link: "https://www.kodestory.com/" },
     { title: "Viss-School ", link: "https://viss-school.vercel.app/" },
     { title: "Yellow-dubai", link: "https://yellowdubai.com/" },
