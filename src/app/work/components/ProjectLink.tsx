@@ -71,6 +71,12 @@ const projects = [
     link: "https://yellowdubai.com/",
     image: "/images/projects/yellow.png",
   },
+  {
+    title: "Career Guidance by Dr.Sivabalan",
+    link: "  https://www.careerguidancebydrsivabalan.com/
+,
+    image: "/images/projects/siva.png",
+  },
 ];
 
 const ProjectSection = () => {
