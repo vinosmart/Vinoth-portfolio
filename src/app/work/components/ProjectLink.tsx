@@ -1,4 +1,5 @@
 import styles from "@/app/work/components/ProjectLink.module.scss";
+import { title } from "process";
 
 const projects = [
   {
@@ -42,14 +43,14 @@ const projects = [
     image: "/images/projects/cab.png",
   },
   {
-    title: "Webinar",
-    link: "https://www.buffchennai.com/campaigns/workshops/kickstarter-creative-designing-workshop",
-    image: "/images/projects/webinar.png",
+    title: "CCANDC Solutions",
+    link: "https://ccandc.vercel.app/",
+    image: "/images/projects/ccandc.png",
   },
   {
-    title: "Bootcamp",
-    link: "https://buffchennai.com/campaigns/bootcamps/uiux",
-    image: "/images/projects/bootcamp.png",
+    title: "Real Estate",
+    link: "https://annasie.vercel.app/",
+    image: "/images/projects/real.png",
   },
   {
     title: "Alignpeak",
@@ -73,9 +74,23 @@ const projects = [
   },
   {
     title: "Career Guidance by Dr.Sivabalan",
-    link: "  https://www.careerguidancebydrsivabalan.com/
-,
+    link: "  https://www.careerguidancebydrsivabalan.com/",
     image: "/images/projects/siva.png",
+  },
+  {
+    title: "Zeta Web",
+    link: "https://zeta-web-one.vercel.app/",
+    image: "/images/projects/zeta.png",
+  },
+  {
+    title: "Buff Institute of Design",
+    link: "https://www.buffinstituteofdesign.com/",
+    image: "/images/projects/buff.png",
+  },
+  {
+    title: "Buff Institute of Design",
+    link: "https://buffcreativecollege.com/ ",
+    image: "/images/projects/buff2.png",
   },
 ];
 
