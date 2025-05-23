@@ -92,6 +92,11 @@ const projects = [
     link: "https://buffcreativecollege.com/ ",
     image: "/images/projects/buff2.png",
   },
+  {
+    title: "Greens Technologies Australia",
+    link: "https://www.greenstechnologies.com.au/",
+    image: "/images/projects/green.png",
+  },
 ];
 
 const ProjectSection = () => {
