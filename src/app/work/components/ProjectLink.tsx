@@ -97,6 +97,31 @@ const projects = [
     link: "https://www.greenstechnologies.com.au/",
     image: "/images/projects/green.png",
   },
+  {
+    title: "DreamTech",
+    link: "https://dreamtech-services.vercel.app/",
+    image: "/images/projects/dream.png",
+  },
+  {
+    title: "Shiv Gaming",
+    link: "https://shiv-gamings.vercel.app/",
+    image: "/images/projects/gaming.png",
+  },
+  {
+    title: "Billing App",
+    link: "https://billing-fawn-five.vercel.app/",
+    image: "/images/projects/billing.png",
+  },
+  {
+    title: "Zoopcheck",
+    link: "https://www.zoopcheck.com/",
+    image: "/images/projects/zoopcheck.png",
+  },
+  {
+    title: "Stratford",
+    link: "https://stratford.vercel.app/",
+    image: "/images/projects/startford.png",
+  },
 ];
 
 const ProjectSection = () => {
