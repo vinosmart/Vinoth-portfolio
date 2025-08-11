@@ -119,8 +119,42 @@ const projects = [
   },
   {
     title: "Stratford",
-    link: "https://stratford.vercel.app/",
+    link: "https://www.stratfords.uk//",
     image: "/images/projects/startford.png",
+  },
+  {
+    title: "Image Compressor",
+    link: "https://dreamtech-services.vercel.app/compressor",
+    image: "/images/projects/saprouae.png",
+  },
+ {
+    title: "Saprouae",
+    link: "https://www.saprouae.com/",
+    image: "/images/projects/compressor.png",
+  }, {
+    title: "  Digitalharn-Portfolio",
+    link: "https://www.digitalharan10x.com/",
+    image: "/images/projects/digitalharn.png",
+  },
+ {
+    title: "  Ramya-Portfolio",
+    link: "https://ramya-portfolio-theta.vercel.app/",
+    image: "/images/projects/ramya.png",
+  },
+   {
+    title: "  Advance Link",
+    link: "https://advanced-link.vercel.app/",
+    image: "/images/projects/advance.png",
+  },
+  {
+    title: "  Resource India Council",
+    link: "https://www.resourceindia.co/",
+    image: "/images/projects/resource.png",
+  },
+    {
+    title: " Nx Digita",
+    link: "https://www.nxdigita.com/",
+    image: "/images/projects/nx.png",
   },
 ];
 
