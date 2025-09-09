@@ -125,12 +125,14 @@ const projects = [
   {
     title: "Image Compressor",
     link: "https://dreamtech-services.vercel.app/compressor",
-    image: "/images/projects/saprouae.png",
+       image: "/images/projects/compressor.png",
+
   },
  {
     title: "Saprouae",
     link: "https://www.saprouae.com/",
-    image: "/images/projects/compressor.png",
+    image: "/images/projects/saprouae.png",
+
   }, {
     title: "  Digitalharn-Portfolio",
     link: "https://www.digitalharan10x.com/",
@@ -143,7 +145,7 @@ const projects = [
   },
    {
     title: "  Advance Link",
-    link: "https://advanced-link.vercel.app/",
+    link: "https://www.advancedlinktrade.com/",
     image: "/images/projects/advance.png",
   },
   {
@@ -155,6 +157,31 @@ const projects = [
     title: " Nx Digita",
     link: "https://www.nxdigita.com/",
     image: "/images/projects/nx.png",
+  },
+     {
+    title: "  Yilixin Automation",
+    link: "https://www.yilixinautomation.com/",
+    image: "/images/projects/yilixin.png",
+  },
+   {
+    title: "  Monish-Portfolio",
+    link: "https://monish-portfolio-tau.vercel.app/",
+    image: "/images/projects/monish.png",
+  },
+     {
+    title: " Fifty Stars LLC",
+    link: "https://fifty-stars.vercel.app/",
+    image: "/images/projects/fifty.png",
+  },
+     {
+    title: " Myndwell",
+    link: "https://myndwell.io/",
+    image: "/images/projects/myndwell.png",
+  },
+       {
+    title: " Reshma-Portfolio",
+    link: "https://reshma-portfolio-gray.vercel.app/",
+    image: "/images/projects/reshma.png",
   },
 ];
 
