@@ -183,6 +183,46 @@ const projects = [
     link: "https://reshma-portfolio-gray.vercel.app/",
     image: "/images/projects/reshma.png",
   },
+     {
+    title: " MindScribe Education",
+    link: "https://mindscribeeducation.in/",
+    image: "/images/projects/mind.png",
+  },
+    {
+    title: " Pulse N Grains",
+    link: "https://pulsengranis.vercel.app/",
+    image: "/images/projects/pulse.png",
+  },
+      {
+    title: " The Project B",
+    link: "https://www.theproject-b.com/",
+    image: "/images/projects/books.png",
+  },
+       {
+    title: " Vinaya Mart",
+    link: "https://vinayamart-gamma.vercel.app/",
+    image: "/images/projects/vinaya.png",
+  },
+   {
+    title: " Medivoy",
+    link: "https://medivoy.vercel.app/home",
+    image: "/images/projects/medivoy.png",
+  },
+   {
+    title: " CDN Tool",
+    link: "https://cdn-tool-theta.vercel.app/",
+    image: "/images/projects/cdn.png",
+  },
+     {
+    title: " Acid SEO Tool",
+    link: "https://seo-tool-gold.vercel.app/",
+    image: "/images/projects/acid.png",
+  },
+    {
+    title: " V0 Drop Website",
+    link: "https://v0-drop-website-build.vercel.app/",
+    image: "/images/projects/drop.png",
+  },
 ];
 
 const ProjectSection = () => {
