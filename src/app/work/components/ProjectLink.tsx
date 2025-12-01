@@ -205,7 +205,7 @@ const projects = [
   },
    {
     title: " Medivoy",
-    link: "https://medivoy.vercel.app/home",
+    link: "https://www.medi-voy.com/home",
     image: "/images/projects/medivoy.png",
   },
    {
