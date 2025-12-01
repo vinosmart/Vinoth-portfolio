@@ -44,12 +44,12 @@ const projects = [
   },
   {
     title: "CCANDC Solutions",
-    link: "https://ccandc.vercel.app/",
+    link: "https://ccandcsolutions.com/",
     image: "/images/projects/ccandc.png",
   },
   {
     title: "Real Estate",
-    link: "https://annasie.vercel.app/",
+    link: "https://annasie.com/",
     image: "/images/projects/real.png",
   },
   {
@@ -64,7 +64,7 @@ const projects = [
   },
   {
     title: "Viss-School",
-    link: "https://viss-school.vercel.app/",
+    link: "https://viss.ae/",
     image: "/images/projects/viss.png",
   },
   {
@@ -223,6 +223,22 @@ const projects = [
     link: "https://v0-drop-website-build.vercel.app/",
     image: "/images/projects/drop.png",
   },
+   {
+    title: " Sir Mutha School",
+    link: "https://stage.sirmlady.sirmuthaschool.edu.in/",
+    image: "/images/projects/sir.png",
+  },
+  {
+    title: " Yuktrix",
+    link: "http://yuktrix.in/",
+    image: "/images/projects/yuktirx.png",
+  },
+    {
+    title: " Smartispark",
+    link: "https://smartispark.com/",
+    image: "/images/projects/spark.png",
+  },
+  
 ];
 
 const ProjectSection = () => {
