@@ -1,4 +1,4 @@
-// plugins/aos.client.js - Check this file exists
+// plugins/aos.client.js
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,5 +13,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         offset: 100,
       });
     });
+
+    nuxtApp.provide("aos", AOS);
   }
 });
