@@ -17,7 +17,7 @@
 
       <div class="grid items-center grid-cols-1 gap-12 md:grid-cols-2">
         <!-- Profile Image Card -->
-        <div ref="profileCard" data-aos="fade-right" data-aos-duration="1000">
+        <div data-aos="fade-left" data-aos-duration="1000">
           <div
             class="p-4 transition-transform duration-500 transform md:p-8 neon-border glass-effect rounded-3xl hover:scale-105"
           >
@@ -55,7 +55,7 @@
         </div>
 
         <!-- About Content -->
-        <div class="space-y-6" data-aos="fade-right" data-aos-duration="1000">
+        <div class="space-y-6" data-aos="fade-left" data-aos-duration="1000">
           <div class="space-y-4">
             <p class="text-lg leading-relaxed text-white/80">
               I'm a passionate

@@ -20,7 +20,7 @@
 
       <div class="grid max-w-6xl gap-12 mx-auto md:grid-cols-2">
         <!-- Contact Info -->
-        <div class="space-y-8" data-aos="fade-right">
+        <div class="space-y-8" data-aos="fade-left">
           <div>
             <h3 class="mb-4 text-2xl font-bold md:text-3xl">
               Let's talk about everything!

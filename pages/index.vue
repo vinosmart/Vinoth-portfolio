@@ -28,7 +28,7 @@
             </div>
 
             <h1 class="mb-4 text-6xl font-bold md:text-8xl">
-              <span class="glow-text" data-aos="fade-right" data-aos-delay="200"
+              <span class="glow-text" data-aos="fade-left" data-aos-delay="200"
                 >Vinoth</span
               >
               <span
