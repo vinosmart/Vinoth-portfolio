@@ -1,10 +1,7 @@
-# .gitignore
-
-# Nuxt dev/build outputs
+# Nuxt build outputs
 .output
 .nuxt
 .nitro
-.cache
 dist
 
 # Node modules
@@ -13,14 +10,13 @@ node_modules
 # Logs
 *.log*
 logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-# OS
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
 .DS_Store
 Thumbs.db
 
@@ -30,26 +26,18 @@ Thumbs.db
 .idea
 *.suo
 *.ntvs*
-*.njsproj
+*.njsproj*
 *.sln
 *.sw?
-.VSCodeCounter
 
-# Environment variables
-.env
-.env.*
-!.env.example
+# Vercel
+.vercel
 
-# Temporary files
-*.tmp
-*.temp
+# Build cache
+.cache
 .temp
 .tmp
 
-# Build outputs
-*.local
-
-# Testing
-coverage
-.nyc_output
-".output" 
+# Lock files (keep package-lock.json, remove others if needed)
+# pnpm-lock.yaml
+# yarn.lock
