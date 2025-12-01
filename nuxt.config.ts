@@ -47,13 +47,18 @@ export default defineNuxtConfig({
           content: 'Full-Stack Web Developer with 5+ years of experience. Specializing in Vue.js, Nuxt.js, Next.js, and modern web technologies. View my portfolio of 50+ projects.' 
         },
         { property: 'og:image', content: 'https://vinothkumar.site/og-image.jpg' },
+        { property: 'og:image:secure_url', content: 'https://vinothkumar.site/og-image.jpg' },
+        { property: 'og:image:type', content: 'image/jpeg' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: 'Vinoth Kumar - Full-Stack Web Developer' },
         { property: 'og:site_name', content: 'Vinoth Kumar Portfolio' },
         { property: 'og:locale', content: 'en_US' },
 
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@vinothkumar' },
+        { name: 'twitter:creator', content: '@vinothkumar' },
         { name: 'twitter:url', content: 'https://vinothkumar.site/' },
         { 
           name: 'twitter:title', 
@@ -64,11 +69,12 @@ export default defineNuxtConfig({
           content: 'Full-Stack Web Developer with 5+ years of experience. Specializing in Vue.js, Nuxt.js, Next.js, and modern web technologies.' 
         },
         { name: 'twitter:image', content: 'https://vinothkumar.site/og-image.jpg' },
-        { name: 'twitter:creator', content: '@vinothkumar' }, // Update with your Twitter handle
+        { name: 'twitter:image:alt', content: 'Vinoth Kumar - Full-Stack Web Developer' },
 
         // Additional SEO
         { name: 'theme-color', content: '#00D9FF' },
         { name: 'msapplication-TileColor', content: '#00D9FF' },
+        { name: 'msapplication-TileImage', content: '/apple-touch-icon.png' },
         { name: 'format-detection', content: 'telephone=no' },
       ],
       link: [
@@ -102,7 +108,7 @@ export default defineNuxtConfig({
             '@type': 'Person',
             name: 'Vinoth Kumar',
             url: 'https://vinothkumar.site',
-            image: 'https://vinothkumar.site/images/avatar.jpg',
+            image: 'https://vinothkumar.site/og-image.jpg',
             jobTitle: 'Full-Stack Web Developer',
             worksFor: {
               '@type': 'Organization',
@@ -116,7 +122,7 @@ export default defineNuxtConfig({
               addressRegion: 'India'
             },
             sameAs: [
-              'https://github.com/vinothkumar', // Update with your actual profiles
+              'https://github.com/vinothkumar',
               'https://linkedin.com/in/vinothkumar',
               'https://twitter.com/vinothkumar'
             ],
@@ -141,15 +147,14 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  // Nitro config for better SEO
   nitro: {
+    preset: 'vercel',
     prerender: {
       crawlLinks: true,
       routes: ['/']
     }
   },
 
-  // Runtime config for environment variables
   runtimeConfig: {
     public: {
       siteUrl: 'https://vinothkumar.site',
