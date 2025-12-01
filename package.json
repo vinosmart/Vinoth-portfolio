@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf .nuxt .output dist node_modules/.cache",
-    "dev": "npm run clean && nuxt dev",
-    "build": "npm run clean && nuxt build",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
