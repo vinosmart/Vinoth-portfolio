@@ -34,6 +34,9 @@ export default defineNuxtConfig({
         { name: 'author', content: 'Vinoth Kumar' },
         { name: 'robots', content: 'index, follow' },
         { name: 'googlebot', content: 'index, follow' },
+        
+        // Google AdSense verification (if you have it)
+        // { name: 'google-adsense-account', content: 'ca-pub-8441864880126202' },
 
         // Open Graph / Facebook
         { property: 'og:type', content: 'website' },
@@ -98,8 +101,18 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'dns-prefetch', href: 'https://cdnjs.cloudflare.com' },
+        
+        // Preconnect to Google AdSense for better performance
+        { rel: 'preconnect', href: 'https://pagead2.googlesyndication.com' },
       ],
       script: [
+        // Google AdSense
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8441864880126202',
+          async: true,
+          crossorigin: 'anonymous'
+        },
+        
         // Structured Data (JSON-LD) for better SEO
         {
           type: 'application/ld+json',
@@ -160,7 +173,8 @@ export default defineNuxtConfig({
       siteUrl: 'https://vinothkumar.site',
       siteName: 'Vinoth Kumar Portfolio',
       siteDescription: 'Full-Stack Web Developer specializing in Vue.js, Nuxt.js, Next.js & Modern Web Applications',
-      language: 'en'
+      language: 'en',
+      adsenseId: 'ca-pub-8441864880126202' // Store for later use
     }
   }
 })
