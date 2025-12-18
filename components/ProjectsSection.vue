@@ -139,7 +139,7 @@
 <script setup>
 const { $gsap, $ScrollTrigger } = useNuxtApp();
 
-const displayCount = ref(47);
+const displayCount = ref(53);
 
 const projects = [
   {
@@ -376,6 +376,36 @@ const projects = [
     title: "Smartispark",
     link: "https://smartispark.com/",
     image: "/images/projects/spark.png",
+  },
+  {
+    title: "Ayyapan & Co",
+    link: "https://masspowerinfra.com/",
+    image: "/images/projects/ayapan.png",
+  },
+  {
+    title: "VJ LUXURIOUS BOUTIQUE",
+    link: "https://www.vjluxuriousboutique.com/",
+    image: "/images/projects/vjluxuriousboutique.png",
+  },
+  {
+    title: "Taken Care Services",
+    link: "https://www.takencareservices.com/",
+    image: "/images/projects/time.png",
+  },
+  {
+    title: "Vishthaw Group",
+    link: "https://vishthawgroup.vercel.app/",
+    image: "/images/projects/vishthawgroup.png",
+  },
+  {
+    title: "MSM Groups",
+    link: "https://www.msmgroups.in/",
+    image: "/images/projects/msmgroups.png",
+  },
+  {
+    title: "The Branding Wizards",
+    link: "https://magic-brand-system.vercel.app/",
+    image: "/images/projects/brand.png",
   },
 ];
 
