@@ -2,15 +2,14 @@
 <template>
   <div>
     <!-- Hero Section -->
+    <AdSense ad-slot="5574130269" />
     <section
       id="home"
       class="relative flex items-center justify-center min-h-screen pt-20 bg-center bg-no-repeat bg-cover"
       style="
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ),
-          url('/bg.jpeg');
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(&quot;/bg.jpeg&quot;);
 
         background-color: #0a0e27;
       "
