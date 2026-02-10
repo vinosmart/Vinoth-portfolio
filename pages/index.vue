@@ -2,7 +2,6 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <AdSense ad-slot="5574130269" />
     <section
       id="home"
       class="relative flex items-center justify-center min-h-screen pt-20 bg-center bg-no-repeat bg-cover"
@@ -152,6 +151,7 @@
 
     <!-- Contact Section -->
     <ContactSection />
+    <AdSense ad-slot="5574130269" />
   </div>
 </template>
 
