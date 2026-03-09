@@ -139,7 +139,7 @@
 <script setup>
 const { $gsap, $ScrollTrigger } = useNuxtApp();
 
-const displayCount = ref(55);
+const displayCount = ref(56);
 
 const projects = [
   {
@@ -416,6 +416,11 @@ const projects = [
     title: "Amarnath Portfolio Website",
     link: "https://3d-portfolio-fawn-kappa.vercel.app/",
     image: "/images/projects/amar.png",
+  },
+  {
+    title: "IQAFIL",
+    link: "https://www.iqafil.com/",
+    image: "/images/projects/iqafil.png",
   },
 ];
 
