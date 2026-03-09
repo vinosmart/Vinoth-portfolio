@@ -28,7 +28,7 @@
               <img
                 src="/images/avatar.jpg"
                 alt="Profile"
-                class="w-full h-full md:object-cover"
+                class="w-full h-full flip md:object-cover"
               />
             </div>
 
@@ -154,7 +154,7 @@ onMounted(() => {
           end: "bottom 20%",
           toggleActions: "play none none reverse",
         },
-      }
+      },
     );
   }
 });

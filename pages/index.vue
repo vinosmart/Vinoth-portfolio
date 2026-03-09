@@ -139,7 +139,7 @@
 
     <!-- About Section -->
     <AboutSection />
-
+    <AchievementSection />
     <!-- Skills Section -->
     <SkillsSection />
 
