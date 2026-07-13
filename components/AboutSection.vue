@@ -26,7 +26,7 @@
             >
               <!-- Replace with your image -->
               <img
-                src="/images/avatar.jpg"
+                src="/achievements/poster.jpg"
                 alt="Profile"
                 class="w-full h-full flip md:object-cover"
               />

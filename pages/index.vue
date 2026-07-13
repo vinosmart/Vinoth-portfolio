@@ -139,7 +139,7 @@
 
     <!-- About Section -->
     <AboutSection />
-    <!-- <AchievementSection /> -->
+    <AchievementSection />
     <!-- Skills Section -->
     <SkillsSection />
 
@@ -162,24 +162,59 @@ const typedText = ref(null);
 const { siteUrl, siteName } = useRuntimeConfig().public;
 
 useHead({
-  title: 'Vinoth Kumar - Best Website Developer & Frontend Expert | Vue.js, Nuxt.js',
+  title:
+    "Vinoth Kumar - Best Website Developer & Frontend Expert | Vue.js, Nuxt.js",
   meta: [
-    { name: 'title', content: 'Vinoth Kumar - Best Website Developer & Frontend Expert | Vue.js, Nuxt.js' },
-    { name: 'description', content: 'Vinoth Kumar - Top-rated Frontend & Full-Stack Web Developer with 5+ years of experience. Expert in Vue.js, Nuxt.js, Next.js. 50+ websites delivered. Hire the best website developer for your next project.' },
-    { name: 'keywords', content: 'best website developer, frontend developer, top web developer, Vinoth Kumar, Full-Stack Developer, Vue.js Developer, Nuxt.js Developer, Next.js Developer, JavaScript Expert, React Developer, Frontend Developer India, Web Development, UI/UX Designer, Tailwind CSS, GSAP, Modern Web Apps, freelance web developer, React.js developer, hire web developer' },
-    { property: 'og:title', content: 'Vinoth Kumar - Best Website Developer & Frontend Expert | 50+ Projects Delivered' },
-    { property: 'og:description', content: 'Hire the best frontend web developer with 5+ years of Vue.js, Nuxt.js & Next.js expertise. Browse 50+ successful projects and let\'s build something amazing.' },
-    { property: 'og:url', content: 'https://vinothkumar.site/' },
-    { property: 'og:image', content: 'https://vinothkumar.site/og-image.jpg' },
-    { property: 'og:image:alt', content: 'Vinoth Kumar - Best Full-Stack Web Developer Portfolio' },
-    { name: 'twitter:title', content: 'Vinoth Kumar - Best Website Developer & Frontend Expert' },
-    { name: 'twitter:description', content: 'Top-rated frontend web developer specializing in Vue.js, Nuxt.js & Next.js. 50+ projects delivered. Let\'s build something amazing together.' },
-    { name: 'robots', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
-    { name: 'googlebot', content: 'index, follow, max-snippet:-1, max-image-preview:large' },
+    {
+      name: "title",
+      content:
+        "Vinoth Kumar - Best Website Developer & Frontend Expert | Vue.js, Nuxt.js",
+    },
+    {
+      name: "description",
+      content:
+        "Vinoth Kumar - Top-rated Frontend & Full-Stack Web Developer with 5+ years of experience. Expert in Vue.js, Nuxt.js, Next.js. 50+ websites delivered. Hire the best website developer for your next project.",
+    },
+    {
+      name: "keywords",
+      content:
+        "best website developer, frontend developer, top web developer, Vinoth Kumar, Full-Stack Developer, Vue.js Developer, Nuxt.js Developer, Next.js Developer, JavaScript Expert, React Developer, Frontend Developer India, Web Development, UI/UX Designer, Tailwind CSS, GSAP, Modern Web Apps, freelance web developer, React.js developer, hire web developer",
+    },
+    {
+      property: "og:title",
+      content:
+        "Vinoth Kumar - Best Website Developer & Frontend Expert | 50+ Projects Delivered",
+    },
+    {
+      property: "og:description",
+      content:
+        "Hire the best frontend web developer with 5+ years of Vue.js, Nuxt.js & Next.js expertise. Browse 50+ successful projects and let's build something amazing.",
+    },
+    { property: "og:url", content: "https://vinothkumar.site/" },
+    { property: "og:image", content: "https://vinothkumar.site/og-image.jpg" },
+    {
+      property: "og:image:alt",
+      content: "Vinoth Kumar - Best Full-Stack Web Developer Portfolio",
+    },
+    {
+      name: "twitter:title",
+      content: "Vinoth Kumar - Best Website Developer & Frontend Expert",
+    },
+    {
+      name: "twitter:description",
+      content:
+        "Top-rated frontend web developer specializing in Vue.js, Nuxt.js & Next.js. 50+ projects delivered. Let's build something amazing together.",
+    },
+    {
+      name: "robots",
+      content: "index, follow, max-snippet:-1, max-image-preview:large",
+    },
+    {
+      name: "googlebot",
+      content: "index, follow, max-snippet:-1, max-image-preview:large",
+    },
   ],
-  link: [
-    { rel: 'canonical', href: 'https://vinothkumar.site/' },
-  ]
+  link: [{ rel: "canonical", href: "https://vinothkumar.site/" }],
 });
 
 onMounted(() => {
