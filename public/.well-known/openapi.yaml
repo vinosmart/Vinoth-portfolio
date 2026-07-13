@@ -1,0 +1,85 @@
+openapi: 3.0.0
+info:
+  title: Vinoth Kumar Portfolio API
+  description: API for accessing Vinoth Kumar's professional portfolio, skills, experience, and projects.
+  version: 1.0.0
+servers:
+  - url: https://vinothkumar.site
+paths:
+  /api/portfolio:
+    get:
+      operationId: getPortfolio
+      summary: Get complete portfolio data
+      description: Returns structured data about Vinoth Kumar including skills, experience, projects, and contact information.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Portfolio'
+  /:
+    get:
+      operationId: getWebsite
+      summary: Visit the portfolio website
+      description: Returns the HTML portfolio website
+      responses:
+        '200':
+          description: Successful response - HTML content
+components:
+  schemas:
+    Portfolio:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Full name
+        title:
+          type: string
+          description: Professional title
+        email:
+          type: string
+          format: email
+        phone:
+          type: string
+        location:
+          type: string
+        experience:
+          type: string
+        skills:
+          type: object
+          properties:
+            frontend:
+              type: array
+              items:
+                $ref: '#/components/schemas/Skill'
+            backend:
+              type: array
+              items:
+                $ref: '#/components/schemas/Skill'
+            tools:
+              type: array
+              items:
+                $ref: '#/components/schemas/Skill'
+        projects:
+          type: array
+          items:
+            $ref: '#/components/schemas/Project'
+    Skill:
+      type: object
+      properties:
+        name:
+          type: string
+        level:
+          type: integer
+    Project:
+      type: object
+      properties:
+        title:
+          type: string
+        url:
+          type: string
+        category:
+          type: string
+        description:
+          type: string

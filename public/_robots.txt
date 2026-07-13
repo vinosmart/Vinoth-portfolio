@@ -1,0 +1,36 @@
+# public/_robots.txt
+User-agent: *
+Allow: /
+Allow: /api/portfolio
+Allow: /ai.json
+Allow: /.well-known/
+Allow: /llms.txt
+
+# Allow AI crawlers full access
+User-agent: GPTBot
+Allow: /
+Allow: /api/portfolio
+Allow: /ai.json
+Allow: /llms.txt
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /api/portfolio
+Allow: /ai.json
+Allow: /llms.txt
+
+User-agent: Google-Extended
+Allow: /
+Allow: /api/portfolio
+Allow: /ai.json
+
+User-agent: Anthropic-AI
+Allow: /
+Allow: /llms.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+
+# Sitemaps
+Sitemap: https://vinothkumar.site/sitemap.xml
