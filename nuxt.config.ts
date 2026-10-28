@@ -26,6 +26,8 @@ export default defineNuxtConfig({
 
   sitemap: {
     enabled: true,
+    // Plain XML for crawlers; the XSLT viewer triggers Chrome's deprecation banner
+    xsl: false,
     urls: [
       {
         loc: 'https://vinothkumar.site/',
