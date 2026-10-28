@@ -103,74 +103,10 @@
 </template>
 
 <script setup>
+import { experiences } from "~/data/portfolio";
+
 const { $gsap, $ScrollTrigger } = useNuxtApp();
 const timelineLine = ref(null);
-
-const experiences = [
-  {
-    id: 1,
-    position: "Senior Frontend Developer",
-    company: "LRB Info TEch",
-    period: "2025 - Present",
-    description:
-      "Leading development of enterprise-level web applications using modern JavaScript frameworks. Mentoring junior developers and establishing best practices.",
-    achievements: [
-      "Architected and deployed 5+ major client projects",
-      "Improved application performance by 60% through optimization",
-      "Led team of 4 developers in agile environment",
-    ],
-    technologies: ["Vue.js", "Nuxt.js", "Node.js", "Tailwind CSS"],
-  },
-  {
-    id: 2,
-    position: "Senior Frontend Developer",
-    company: "Buff Creative College",
-    period: "2024 - 2025",
-    description:
-      "Developed responsive web applications and RESTful APIs. Collaborated with design teams to create pixel-perfect user interfaces.",
-    achievements: [
-      "Built healthcare platform serving 10,000+ users",
-      "Integrated multiple payment gateways (Razorpay, Stripe)",
-      "Reduced load times by 40% through code splitting",
-    ],
-    technologies: ["React", "Next.js", "Express", "PostgreSQL", "Tailwind CSS"],
-  },
-  {
-    id: 3,
-    position: "Frontend Developer",
-    company: "Zoomloacal Technologies",
-    period: "2024 - 2024",
-    description:
-      "Focused on building interactive and animated user interfaces. Worked closely with UX designers to implement design systems.",
-    achievements: [
-      "Developed reusable component library used across 8 projects",
-      "Implemented complex animations using GSAP and Framer Motion",
-      "Achieved 98% lighthouse performance score",
-    ],
-    technologies: ["Vue.js", "GSAP", "SCSS", "Webpack", "Figma"],
-  },
-  {
-    id: 4,
-    position: "Junior Web Developer",
-    company: "LMES Technologies",
-    period: "2020 - 2023",
-    description:
-      "Started career building landing pages and small business websites. Learned modern development practices and version control.",
-    achievements: [
-      "Created 15+ responsive websites for local businesses",
-      "Mastered Git workflow and collaborative development",
-      "Achieved Google PageSpeed score of 95+",
-    ],
-    technologies: [
-      "Vue.js",
-      "Nuxt.js",
-      "Tailwind CSS",
-      "JavaScript",
-      "Git",
-      "Netlify",
-    ],
-  },
-];
 
 onMounted(() => {
   if ($gsap && $ScrollTrigger && timelineLine.value) {

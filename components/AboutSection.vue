@@ -27,7 +27,7 @@
               <!-- Replace with your image -->
               <img
                 src="/achievements/poster.jpg"
-                alt="Profile"
+                alt="Vinoth Kumar – Best Website Developer award, Global Freelancers Festival 2026"
                 class="w-full h-full flip md:object-cover"
               />
             </div>
@@ -84,7 +84,7 @@
               class="p-2 transition-all border md:p-4 glass-effect border-white/10 rounded-xl hover:border-neon-blue"
             >
               <div class="mb-1 text-sm text-neon-blue">Name</div>
-              <div class="font-semibold">VinothKumar</div>
+              <div class="font-semibold">Vinothkumar</div>
             </div>
 
             <div
@@ -98,7 +98,7 @@
               class="p-2 transition-all border md:p-4 glass-effect border-white/10 rounded-xl hover:border-neon-blue"
             >
               <div class="mb-1 text-sm text-neon-blue">Location</div>
-              <div class="font-semibold">India</div>
+              <div class="font-semibold">Chennai, India</div>
             </div>
 
             <div

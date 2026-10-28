@@ -11,11 +11,12 @@
           <!-- Brand -->
           <div>
             <div class="text-2xl font-bold glow-text">
-              <img src="/logo.png" class="w-[60px] rounded-full" alt="" />
+              <img src="/logo.png" width="60" height="60" loading="lazy" class="w-[60px] rounded-full" alt="Vinoth Kumar logo" />
             </div>
             <p class="mb-4 text-white/60">
-              Building exceptional digital experiences with modern web
-              technologies.
+              Vinothkumar – full stack developer, frontend
+              developer and website developer in Chennai, India. Building fast,
+              SEO-friendly websites with Vue.js, Nuxt.js, Next.js &amp; React.
             </p>
             <div
               class="flex justify-start gap-6"
@@ -83,6 +84,20 @@
               </li>
               <li>
                 <a
+                  href="#journey"
+                  class="transition-colors text-white/60 hover:text-neon-blue"
+                  >Journey</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  class="transition-colors text-white/60 hover:text-neon-blue"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
                   href="#contact"
                   class="transition-colors text-white/60 hover:text-neon-blue"
                   >Contact</a
@@ -117,7 +132,7 @@
           class="pt-8 text-sm text-center border-t border-white/10 text-white/60"
         >
           <p>
-            &copy; 2025 VinothKumar. All rights reserved. Built with
+            &copy; {{ new Date().getFullYear() }} Vinoth Kumar. All rights reserved. Built with
             <span class="text-neon-blue">Vue.js</span>,
             <span class="text-primary-pink">Nuxt.js</span> &
             <span class="text-primary-cyan">Tailwind CSS</span>

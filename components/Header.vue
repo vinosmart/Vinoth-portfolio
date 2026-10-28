@@ -7,9 +7,9 @@
     <nav class="container px-4 py-4 mx-auto">
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <div class="text-2xl font-bold glow-text">
-          <img src="/logo.png" class="w-[60px] rounded-full" alt="" />
-        </div>
+        <a href="/" class="text-2xl font-bold glow-text" aria-label="Vinoth Kumar – home">
+          <img src="/logo.png" width="60" height="60" class="w-[60px] rounded-full" alt="Vinoth Kumar logo" />
+        </a>
 
         <!-- Desktop Menu -->
         <ul class="hidden space-x-8 md:flex">
@@ -80,9 +80,10 @@ const mobileMenuOpen = ref(false);
 const menuItems = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
-  { id: "skills", label: "Skills" },
+  { id: "journey", label: "Journey" },
   { id: "projects", label: "Projects" },
   { id: "experience", label: "Experience" },
+  { id: "faq", label: "FAQ" },
   { id: "contact", label: "Contact" },
 ];
 
